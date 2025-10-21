@@ -44,7 +44,7 @@ export default function Home() {
 
   return (
     <div className="bg-[#e6e7eb] h-screen flex items-center justify-center">
-      <div className="max-w-7xl bg-[#f8f9fd] p-6 rounded-2xl mx-auto">
+      <div className="max-w-7xl h-[72vh] bg-[#f8f9fd] p-6 rounded-2xl mx-auto">
         <div className="receipt-outlet-container">
           <div className="receipt-slot"></div>
         </div>
