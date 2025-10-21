@@ -43,9 +43,9 @@ export default function Home() {
   ];
 
   return (
-    <div className="bg-[#e6e7eb] h-screen flex items-center justify-center">
-      <div className="max-w-7xl h-[72vh] bg-[#f8f9fd] p-6 rounded-2xl mx-auto">
-        <div className="receipt-outlet-container">
+    <div className="bg-[#e6e7eb] p-2 md:p-6 h-screen flex items-center justify-center">
+      <div className="w-full lg:max-w-100 lg:h-[72vh] bg-[#f8f9fd] p-6 rounded-2xl md:mx-auto">
+        <div className="receipt-outlet-container w-full">
           <div className="receipt-slot"></div>
         </div>
         <div className="mx-6 bg-white mt-[-75px] z-10 shadow-2xl rounded-sm p-2 receipt-shape receipt-emerging">
@@ -144,7 +144,7 @@ export default function Home() {
               </div>
 
               <div className="w-full h-1.5 bg-black"></div>
-              
+
               <div className="bg-white p-1 shadow-sm rounded-full">
                 <div className="w-4 h-4 bg-green-500 rounded-full flex items-center justify-center">
                   <svg
@@ -207,10 +207,10 @@ export default function Home() {
               Send Reminder
             </button>
             <button className="flex-1 bg-white border border-gray-300 text-gray-700 cursor-pointer py-2 px-3 rounded-lg text-sm font-medium shadow-sm hover:bg-gray-50 transition-colors">
-              Download Invoice
+              Download
             </button>
           </div>
-          </div>
+        </div>
       </div>
     </div>
   );
